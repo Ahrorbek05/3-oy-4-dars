@@ -184,6 +184,10 @@ section{
     display: flex;
 }
 
+.images img{
+    cursor: pointer;
+}
+
 .hero-section img{
     margin-bottom:32px ;
 }
@@ -359,7 +363,7 @@ span .btns{
     background-color: transparent;
     font-weight: 400;
     line-height: 30px;
-    transition: all 0.5s;
+    transition: all 0.3s;
     text-align: left;
     color: #000000;
 }
@@ -517,12 +521,14 @@ hr{
 
 .thumb{
     position: relative;
+    cursor: pointer;
 }
 
 .thumb span{
     position: absolute;
     right: 20px;
     top: 20px;
+    /* cursor: pointer; */
     width: 50px;
     display: flex;
     justify-content: center;
@@ -535,12 +541,14 @@ hr{
 
 .thumb3{
     position: relative;
+    cursor: pointer;
 }
 
 .thumb3 span{
     position: absolute;
     right: 20px;
     top: 20px;
+    cursor: pointer;
     width: 50px;
     display: flex;
     justify-content: center;
@@ -554,6 +562,7 @@ hr{
 .cart-info{
     padding:16px 20px 30px 16px;
     line-height: 8px;
+    cursor: pointer;
 }
 
 .cart-text2{
@@ -660,5 +669,5 @@ hr{
 .product-btns:active{
     background-color: #B88E2F;
     color: #fff;
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
